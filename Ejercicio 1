@@ -1,0 +1,21 @@
+"""
+Proyecto for-if-else-elif
+Nombre: Martin Chapi
+Fecha: 29/10/2024
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = np.linspace(1,10,10)
+n = len(a)
+
+for i in range(n):
+    if a[i] > 5:
+        print(a[i])
+    elif a[i]>=3:
+        print("Este valor es intermedio", a[i])
+    elif a[i]==2:
+        print("Este valor es unico", a[i])
+    else:
+        print("no es mayor a 3",a[i])
